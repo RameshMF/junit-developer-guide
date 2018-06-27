@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.developersguide.junit</groupId>
+	<artifactId>junit-developers-guide</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<modules>
+		<module>junit-getting-started</module>
+		<module>junit-assertions-examples</module>
+		<module>junit-annotation-examples</module>
+		<module>junit-test-runners-examples</module>
+		<module>junit-test-execution-order</module>
+		<module>junit-exception-testing-examples</module>
+		<module>junit-matchers-assertThat-examples</module>
+		<module>junit-ignoring-tests-examples</module>
+		<module>junit-timeout-for-tests</module>
+		<module>junit-parameterized-tests</module>
+		<module>junit-test-fixtures-examples</module>
+		<module>junit-maven-examples</module>
+		<module>junit-multithreaded-code-concurrency</module>
+		<module>junit-suite-tests-examples</module>
+	</modules>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>
